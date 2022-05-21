@@ -19,5 +19,10 @@ public class PruebaAritmetica {
         
         int resultado = ari1.sumarRetorno();
         System.out.println("resultado bacano = " + resultado);
+        
+        resultado = ari1.sumarArgumentos(8, 8);
+        System.out.println("resultado con argumentos = " + resultado);
+
     }
+    
 }

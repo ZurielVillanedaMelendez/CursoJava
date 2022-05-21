@@ -20,4 +20,11 @@ public class Aritmetica {
     public int sumarRetorno (){
         return a + b;
     }
+    
+    public int sumarArgumentos(int arg1, int arg2){
+        a = arg1;
+        b = arg2;
+        
+        return a + b;
+    }
 }

@@ -12,6 +12,10 @@ package Operaciones;
 public class Aritmetica {
     int a, b;
     
+    public Aritmetica(){
+        System.out.println("Holabb");
+    }
+    
     public void sumar(){
         int resultado = a + b;
         System.out.println("resultado = " + resultado);

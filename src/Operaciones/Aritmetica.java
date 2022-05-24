@@ -16,6 +16,11 @@ public class Aritmetica {
         System.out.println("Holabb");
     }
     
+    public Aritmetica(int a, int b){
+        this.a = a;
+        this.b = b;
+    } 
+    
     public void sumar(){
         int resultado = a + b;
         System.out.println("resultado = " + resultado);

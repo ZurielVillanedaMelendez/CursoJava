@@ -22,6 +22,12 @@ public class PruebaAritmetica {
         
         resultado = ari1.sumarArgumentos(8, 8);
         System.out.println("resultado con argumentos = " + resultado);
+        
+         Aritmetica ari2 = new Aritmetica(2, 2);
+         System.out.println("ari2 a = " + ari2.a);
+         System.out.println("ari2 b = " + ari2.b);
+         
+         
 
     }
     

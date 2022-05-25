@@ -12,7 +12,7 @@ package Operaciones;
 public class PruebaAritmetica {
     public static void main(String[] args) {
         Aritmetica ari1 = new Aritmetica();
-        
+        //Variable local al metodo static void 
         ari1.a = 2;
         ari1.b = 5;
         ari1.sumar();
@@ -29,6 +29,11 @@ public class PruebaAritmetica {
          
          
 
+    }
+    
+    public void metodo(){
+        //no se pueden ocupar variables de otro metodo
+        //a = 2;
     }
     
 }

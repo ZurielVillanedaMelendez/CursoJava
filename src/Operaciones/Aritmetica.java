@@ -10,6 +10,7 @@ package Operaciones;
  * @author user
  */
 public class Aritmetica {
+    //Variable global
     int a, b;
     
     public Aritmetica(){
@@ -17,6 +18,7 @@ public class Aritmetica {
     }
     
     public Aritmetica(int a, int b){
+        //Variable local
         this.a = a;
         this.b = b;
     } 

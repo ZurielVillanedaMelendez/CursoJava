@@ -11,7 +11,7 @@ package Clases;
  */
 public class Persona {
     //Atributos de la clase
-    String nombre;
+    public String nombre;
     String apellido;
     
     //Metodos d ela clase 

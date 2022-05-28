@@ -5,12 +5,23 @@
  */
 package pasoporreferencia;
 
+import Clases.Persona;
+
 /**
  *
  * @author user
  */
 public class PasoPorReferencia {
     public static void main(String[] args) {
-        Persona perosna1 = new Persona ();
+        Persona persona1 = new Persona ();
+        
+        persona1.nombre = "Zuriel";
+        System.out.println("persona1 = " + persona1.nombre);
+        cambioValor(persona1);
+        System.out.println("persona1  nueva = " + persona1.nombre);
+        
+    }
+    public static void cambioValor(Persona persona){
+        persona.nombre = "Rugal";
     }
 }

@@ -21,7 +21,10 @@ public class PasoPorReferencia {
         System.out.println("persona1  nueva = " + persona1.nombre);
         
     }
-    public static void cambioValor(Persona persona){
+    public static Persona cambioValor(Persona persona){
         persona.nombre = "Rugal";
+        //La palabra rerutn se ocupa para devilver un valor 
+        //usar void en una clase hace que se refrese de manera implicita return ;
+        return persona;
     }
 }

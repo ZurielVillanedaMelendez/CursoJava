@@ -16,9 +16,12 @@ public class PalabraThis {
         String nombre, apellido;
 
         Persona(String nombre, String apellido) {
+            //super(); llamada de manera implicita de la clase padre Object
             this.nombre = nombre;
             this.apellido = apellido;
             System.out.println("this = " + this);
+            new Imprimir().imprimir(this);
+            
         }
     }
 
